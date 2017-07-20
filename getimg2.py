@@ -82,7 +82,7 @@ def thirdCrawler():
                 print('bsObj OK')
                 try:
                     for i in range(0, 7):
-                        if i<1:
+                        if i>0:
                             spanid='angle-'+str(i)
                         else:
                             spanid='angle-p'
